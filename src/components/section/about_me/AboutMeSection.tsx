@@ -13,7 +13,8 @@ export default function AboutMeSection() {
         Hi 👋 - I'm{" "}
         <span className="font-primary font-bold text-primary leading-6 transition-all duration-200 hover:drop-shadow-[0_0_8px_#33ce78]">Eky Zakariah</span>, a
         Software Engineer passionate about building efficient, user-friendly solutions. Experienced in frontend and backend development, database management,
-        and CI/CD automation, with a strong focus on collaboration and continuous improvement.
+        and CI/CD automation, with a strong focus on collaboration and continuous improvement. Currently pursuing a degree in Informatics with a concentration
+        in Software Engineering.
       </p>
 
       <div className="flex items-center gap-8">

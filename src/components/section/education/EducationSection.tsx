@@ -20,8 +20,8 @@ export default function EducationSection() {
       </div>
 
       <div className="relative flex flex-col gap-12">
-        {educations.map((edu, index) => (
-          <TimelineItem key={index} {...edu} />
+        {educations.map((education, index) => (
+          <TimelineItem key={index} {...education} />
         ))}
       </div>
     </section>

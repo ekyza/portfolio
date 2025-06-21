@@ -27,8 +27,8 @@ export default function ExperienceSection() {
       </div>
 
       <div className="relative flex flex-col gap-12">
-        {experiences.map((exp, index) => (
-          <TimelineItem key={index} {...exp} />
+        {experiences.map((experience, index) => (
+          <TimelineItem key={index} {...experience} />
         ))}
       </div>
     </section>

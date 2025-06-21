@@ -20,8 +20,10 @@ export default function TimelineItem({ company, role, date, descriptions }: Time
             <p className="max-w-full w-max font-primary text-sm font-bold text-primary leading-6 text-wrap transition-all duration-200 hover:drop-shadow-[0_0_8px_#33ce78]">
               {company}
             </p>
+
             <p className="font-primary text-sm font-bold text-text">{role}</p>
           </div>
+
           <p className="font-primary text-xs font-bold text-text">{date}</p>
         </div>
 

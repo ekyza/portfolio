@@ -14,6 +14,7 @@ export default function Navbar() {
 
   useEffect(() => {
     document.body.style.overflow = isOpen ? "hidden" : "auto";
+
     return () => {
       document.body.style.overflow = "auto";
     };
