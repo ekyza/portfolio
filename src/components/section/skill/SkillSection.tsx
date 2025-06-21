@@ -14,11 +14,7 @@ const skillData = [
         colorClass: "text-white hover:drop-shadow-[0_0_8px_#ffffff]",
         name: "ShadCN UI",
       },
-      {
-        iconClass: "bxl bx-vite-js",
-        colorClass: "text-[#9499db] hover:drop-shadow-[0_0_8px_#9499db]",
-        name: "Vite",
-      },
+
       {
         iconClass: "bxl bx-react",
         colorClass: "text-[#58c4dc] hover:drop-shadow-[0_0_8px_#58c4dc]",
@@ -88,6 +84,11 @@ const skillData = [
         iconClass: "bxl bx-npm",
         colorClass: "text-[#cd3e3d] hover:drop-shadow-[0_0_8px_#cd3e3d]",
         name: "NPM",
+      },
+      {
+        iconClass: "bxl bx-vite-js",
+        colorClass: "text-[#9499db] hover:drop-shadow-[0_0_8px_#9499db]",
+        name: "Vite",
       },
       {
         iconClass: "bxl bx-docker",
