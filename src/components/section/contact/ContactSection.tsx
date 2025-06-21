@@ -15,8 +15,9 @@ export default function ContactSection() {
     {
       label: "Resume",
       icon: "bx bx-file-detail",
-      href: "/assets/documents/ekyzakariah_cv.pdf",
-      download: true,
+      href: "https://drive.google.com/file/d/1316cDUX3fq7_cGt6IgIvWDChfAp_SEnG/view?usp=drive_link",
+      target: "_blank",
+      rel: "noopener noreferrer",
     },
   ];
 
@@ -29,11 +30,10 @@ export default function ContactSection() {
       </p>
 
       <div className="flex justify-center items-center flex-wrap gap-4">
-        {contacts.map(({ label, icon, href, download, target, rel }) => (
+        {contacts.map(({ label, icon, href, target, rel }) => (
           <a
             key={label}
             href={href}
-            {...(download ? { download: true } : {})}
             {...(target ? { target } : {})}
             {...(rel ? { rel } : {})}
             className="bg-text py-2 px-3 rounded-md flex items-center gap-2 font-primary text-xs font-bold text-background transition-all duration-200 hover:drop-shadow-[0_0_8px_#fefefe]"

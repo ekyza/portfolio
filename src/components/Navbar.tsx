@@ -22,7 +22,7 @@ export default function Navbar() {
   return (
     <header className="px-4">
       <nav className="py-4 md:px-4 mx-auto border-b border-[#292929] max-w-screen-lg flex items-center justify-between">
-        <a href="#" className="font-primary text-lg font-bold text-text">
+        <a href="/" className="font-primary text-lg font-bold text-text">
           <span className="text-primary">{"{"}</span>ekyza.<span className="text-primary">{"}"}</span>
         </a>
 
