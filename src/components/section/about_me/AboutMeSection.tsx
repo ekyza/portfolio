@@ -22,7 +22,7 @@ export default function AboutMeSection() {
           href="https://drive.google.com/file/d/1316cDUX3fq7_cGt6IgIvWDChfAp_SEnG/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-primary py-2 px-3 rounded-md flex items-center gap-2 font-primary text-xs font-bold text-background hover:cursor-pointer transition-all duration-200 hover:drop-shadow-[0_0_8px_#33ce78]"
+          className="bg-primary py-2 px-3 rounded-md flex items-center gap-2 font-primary text-sm font-bold text-background hover:cursor-pointer transition-all duration-200 hover:drop-shadow-[0_0_8px_#33ce78]"
         >
           <i className="bx bx-arrow-to-bottom-stroke text-lg"></i> Download Resume
         </a>

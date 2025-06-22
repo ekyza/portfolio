@@ -16,7 +16,7 @@ export default function EducationSection() {
       <div className="pt-4 flex items-center gap-2">
         <i className="bxr bx-education text-xl text-text"></i>
 
-        <p className="font-primary text-lg font-bold text-text">Education</p>
+        <p className="mt-0.5 font-primary text-lg font-bold text-text">Education</p>
       </div>
 
       <div className="relative flex flex-col gap-12">

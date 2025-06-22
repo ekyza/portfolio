@@ -6,13 +6,11 @@ import ExperienceSection from "./components/section/experience/ExperienceSection
 import EducationSection from "./components/section/education/EducationSection";
 import SkillSection from "./components/section/skill/SkillSection";
 import ContactSection from "./components/section/contact/ContactSection";
+import ScrollToTopButton from "./components/ScrollToTopButton";
+import Footer from "./components/Footer";
 
 export default function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -42,21 +40,9 @@ export default function App() {
         </div>
       </main>
 
-      <button
-        onClick={scrollToTop}
-        aria-label="scroll-top-btn"
-        className={`
-          fixed bottom-12 md:bottom-32 right-6 md:right-32 z-50 bg-primary rounded-full flex justify-center items-center p-1 transition-all duration-500 ease-in-out transform ${
-            showScrollTop ? "opacity-100 scale-100" : "opacity-0 scale-0 pointer-events-none"
-          } cursor-pointer
-        `}
-      >
-        <i className="bx bx-arrow-up-stroke text-4xl text-background"></i>
-      </button>
+      <ScrollToTopButton showScrollTop={showScrollTop} />
 
-      <footer className="py-24 px-4">
-        <p className="font-primary font-bold text-xs text-text text-center">Designed and Developed by Eky Zakariah</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -17,7 +17,7 @@ export default function TimelineItem({ company, role, date, descriptions }: Time
       <div className="mt-4 grid grid-cols-1 md:grid-cols-3 grid-rows-1 gap-8">
         <div className="flex flex-col gap-4">
           <div className="flex flex-col gap-2">
-            <p className="max-w-full w-max font-primary text-sm font-bold text-primary leading-6 text-wrap transition-all duration-200 hover:drop-shadow-[0_0_8px_#33ce78]">
+            <p className="max-w-full w-max font-primary text-base font-bold text-primary leading-6 text-wrap transition-all duration-200 hover:drop-shadow-[0_0_8px_#33ce78]">
               {company}
             </p>
 
@@ -28,7 +28,7 @@ export default function TimelineItem({ company, role, date, descriptions }: Time
         </div>
 
         <div className="md:col-span-2">
-          <p className="font-primary text-xs text-text leading-6">{descriptions}</p>
+          <p className="font-primary text-sm text-text leading-6">{descriptions}</p>
         </div>
       </div>
     </div>

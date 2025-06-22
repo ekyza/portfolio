@@ -23,7 +23,7 @@ export default function ExperienceSection() {
       <div className="pt-4 flex items-center gap-2">
         <i className="bxr bx-briefcase-alt-2 text-xl text-text"></i>
 
-        <p className="font-primary text-lg font-bold text-text">Experience</p>
+        <p className="mt-0.5 font-primary text-lg font-bold text-text">Experience</p>
       </div>
 
       <div className="relative flex flex-col gap-12">
