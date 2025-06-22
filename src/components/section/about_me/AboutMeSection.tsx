@@ -3,7 +3,7 @@ import SocialLink from "./SocialLink";
 const socialLinks = [
   { href: "https://github.com/ekyza/", label: "github", iconClass: "bxl bx-github" },
   { href: "https://www.linkedin.com/in/eky-zakariah-40b404257/", label: "linkedin", iconClass: "bxl bx-linkedin-square" },
-  { href: "https://www.instagram.com/eky.za/", label: "instgram", iconClass: "bxl bx-instagram-alt" },
+  { href: "https://www.instagram.com/eky.za/", label: "instgram", iconClass: "bxl bx-instagram" },
 ];
 
 export default function AboutMeSection() {
