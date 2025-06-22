@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 import Navbar from "./components/Navbar";
 import AboutMeSection from "./components/section/about_me/AboutMeSection";
