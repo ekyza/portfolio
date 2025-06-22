@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 import Navbar from "./components/Navbar";
 import AboutMeSection from "./components/section/about_me/AboutMeSection";
@@ -43,6 +44,8 @@ export default function App() {
       <ScrollToTopButton showScrollTop={showScrollTop} />
 
       <Footer />
+
+      <Analytics />
     </div>
   );
 }
