@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 
+import ScrolledPage from "./components/ScrolledPage";
 import Navbar from "./components/Navbar";
 import AboutMeSection from "./components/section/about_me/AboutMeSection";
 import ExperienceSection from "./components/section/experience/ExperienceSection";
@@ -25,30 +26,32 @@ export default function App() {
   }, []);
 
   return (
-    <div className="bg-background min-h-screen antialiased">
-      <Navbar />
+    <ScrolledPage>
+      <div className="bg-background min-h-screen antialiased">
+        <Navbar />
 
-      <main className="py-4 px-6 mx-auto max-w-screen-lg">
-        <AboutMeSection />
+        <main className="py-4 px-6 mx-auto max-w-screen-lg">
+          <AboutMeSection />
 
-        <div className="flex flex-col gap-12">
-          <ExperienceSection />
+          <div className="flex flex-col gap-12">
+            <ExperienceSection />
 
-          <EducationSection />
+            <EducationSection />
 
-          <SkillSection />
+            <SkillSection />
 
-          <ContactSection />
-        </div>
-      </main>
+            <ContactSection />
+          </div>
+        </main>
 
-      <ScrollToTopButton showScrollTop={showScrollTop} />
+        <ScrollToTopButton showScrollTop={showScrollTop} />
 
-      <Footer />
+        <Footer />
 
-      <Analytics />
+        <Analytics />
 
-      <SpeedInsights />
-    </div>
+        <SpeedInsights />
+      </div>
+    </ScrolledPage>
   );
 }
