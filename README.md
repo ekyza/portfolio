@@ -9,23 +9,26 @@ This is a **personal portfolio website** built with **React + TypeScript + Vite*
 - **Vite** — Lightning-fast build tool
 - **Tailwind CSS** — Utility-first CSS Framework
 - **Boxicons** — Icon Library
+- **Motion** — Animation Library
 
 ## 🗂️ Project Structure
 
 ```
 src/
+├── contexts/          # React Context (e.g., ThemeContext)
+├── hooks/             # Custom reusable React hook
 ├── components/
-│   ├── section/
-│   │   ├── about_me/           # About me section
-│   │   ├── contact/            # Contact details like email, LinkedIn
-│   │   ├── education/          # Educational background
-│   │   ├── experience/         # Work experience or projects
-│   │   └── skill/              # Technical skills
-│   └── shared/                 # Shared UI components like navbar and timeline item
+│   ├── section/       # Page sections
+│   │   ├── about_me/      # About me section
+│   │   ├── contact/       # Contact section
+│   │   ├── education/     # Educational background
+│   │   ├── experience/    # Work experience
+│   │   └── skill/         # Technical skills
+│   └── shared/        # Shared UI components (navbar, timeline item, etc.)
 │
-├── App.tsx                     # Main app entry
-├── main.tsx                    # React DOM entry point
-├── index.css                   # Global CSS with Tailwind configuration
+├── App.tsx            # Root app component
+├── main.tsx           # React DOM entry
+├── index.css          # Tailwind base styles
 ```
 
 ## 📌 Key Features
