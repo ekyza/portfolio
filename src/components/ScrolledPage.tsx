@@ -1,11 +1,14 @@
 import { motion, useSpring, useScroll } from "motion/react";
 
+import useTheme from "../hooks/useTheme";
+
 interface ScrolledPageProps {
   children: React.ReactNode;
 }
 
 export default function ScrolledPage({ children }: ScrolledPageProps) {
   const { scrollYProgress } = useScroll();
+  const { isDark } = useTheme();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 10,
@@ -24,7 +27,7 @@ export default function ScrolledPage({ children }: ScrolledPageProps) {
           right: 0,
           height: 3,
           originX: 0,
-          backgroundColor: "#33ce78",
+          backgroundColor: isDark ? "#33ce78" : "#28a964",
         }}
       />
       {children}

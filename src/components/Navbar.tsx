@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+import useTheme from "../hooks/useTheme";
+
 import HamburgerMenu from "./HamburgerMenu";
 
 const navLinks = [
@@ -11,31 +13,7 @@ const navLinks = [
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isDark, setIsDark] = useState(false);
-
-  useEffect(() => {
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-    setIsDark(prefersDark);
-  }, []);
-
-  useEffect(() => {
-    if (isDark) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [isDark]);
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-
-    const handleChange = (e: MediaQueryListEvent) => setIsDark(e.matches);
-
-    mediaQuery.addEventListener("change", handleChange);
-
-    return () => mediaQuery.removeEventListener("change", handleChange);
-  }, []);
+  const { isDark, setIsDark } = useTheme();
 
   useEffect(() => {
     document.body.style.overflow = isOpen ? "hidden" : "auto";
@@ -49,7 +27,7 @@ export default function Navbar() {
     <header className="px-4">
       <nav className="py-4 md:px-4 mx-auto border-b border-border dark:border-dark-border max-w-screen-lg flex items-center justify-between">
         <a href="/" className="font-primary text-lg font-bold text-text dark:text-dark-text">
-          <span className="text-primary">{"{"}</span>ekyza.<span className="text-primary">{"}"}</span>
+          <span className="text-primary dark:text-dark-primary">{"{"}</span>ekyza.<span className="text-primary dark:text-dark-primary">{"}"}</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
@@ -62,7 +40,7 @@ export default function Navbar() {
           <button
             onClick={() => setIsDark(!isDark)}
             aria-label="mode-toggle"
-            className="bg-primary p-1 rounded-full flex justify-center items-center hover:cursor-pointer transition-colors duration-300"
+            className="bg-primary dark:bg-dark-primary p-1 rounded-full flex justify-center items-center hover:cursor-pointer transition-colors duration-300"
           >
             <i
               className={`bx bxs-${isDark ? "moon-star" : "sun"} text-base text-background dark:text-dark-background transition-all duration-500 transform ${
@@ -76,7 +54,7 @@ export default function Navbar() {
           <button
             onClick={() => setIsDark(!isDark)}
             aria-label="mode-toggle"
-            className="bg-primary p-1 rounded-full flex justify-center items-center hover:cursor-pointer transition-colors duration-300"
+            className="bg-primary dark:bg-dark-primary p-1 rounded-full flex justify-center items-center hover:cursor-pointer transition-colors duration-300"
           >
             <i
               className={`bx bxs-${isDark ? "moon-star" : "sun"} text-base text-background dark:text-dark-background transition-all duration-500 transform ${
