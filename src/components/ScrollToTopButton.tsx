@@ -13,7 +13,7 @@ export default function ScrollToTopButton({ showScrollTop }: ScrollToTopButtonPr
           } cursor-pointer
         `}
     >
-      <i className="bx bx-arrow-up-stroke text-4xl text-background"></i>
+      <i className="bx bx-arrow-up-stroke text-4xl text-background dark:text-dark-background"></i>
     </button>
   );
 }

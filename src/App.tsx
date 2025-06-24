@@ -27,7 +27,7 @@ export default function App() {
 
   return (
     <ScrolledPage>
-      <div className="bg-background min-h-screen antialiased">
+      <div className="bg-background dark:bg-dark-background min-h-screen antialiased transition-colors duration-500 ease-in-out">
         <Navbar />
 
         <main className="py-4 px-6 mx-auto max-w-screen-lg">

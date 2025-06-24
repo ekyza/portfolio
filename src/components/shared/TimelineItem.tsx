@@ -11,7 +11,7 @@ export default function TimelineItem({ company, role, date, descriptions }: Time
       <div className="relative flex flex-col items-center">
         <div className="bg-primary mt-[1.375rem] rounded-full size-3 z-10"></div>
 
-        <div className="absolute top-0 h-[calc(100%+(1.5rem*2))] w-0.5 bg-[#292929]"></div>
+        <div className="absolute top-0 h-[calc(100%+(1.5rem*2))] w-0.5 bg-border dark:bg-dark-border"></div>
       </div>
 
       <div className="mt-4 grid grid-cols-1 md:grid-cols-3 grid-rows-1 gap-8">
@@ -21,14 +21,14 @@ export default function TimelineItem({ company, role, date, descriptions }: Time
               {company}
             </p>
 
-            <p className="font-primary text-sm font-bold text-text">{role}</p>
+            <p className="font-primary text-sm font-bold text-text dark:text-dark-text">{role}</p>
           </div>
 
-          <p className="font-primary text-xs font-bold text-text">{date}</p>
+          <p className="font-primary text-xs text-text dark:text-dark-text">{date}</p>
         </div>
 
         <div className="md:col-span-2">
-          <p className="font-primary text-sm text-text leading-6">{descriptions}</p>
+          <p className="font-primary text-sm text-text dark:text-dark-text leading-6">{descriptions}</p>
         </div>
       </div>
     </div>

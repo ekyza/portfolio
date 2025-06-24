@@ -21,9 +21,9 @@ export default function ExperienceSection() {
   return (
     <section id="experience" className="flex flex-col gap-8 overflow-y-hidden">
       <div className="pt-4 flex items-center gap-2">
-        <i className="bxr bx-briefcase-alt-2 text-xl text-text"></i>
+        <i className="bxr bx-briefcase-alt-2 text-xl text-text dark:text-dark-text"></i>
 
-        <p className="mt-0.5 font-primary text-lg font-bold text-text">Experience</p>
+        <p className="mt-0.5 font-primary text-lg font-bold text-text dark:text-dark-text">Experience</p>
       </div>
 
       <div className="relative flex flex-col gap-12">

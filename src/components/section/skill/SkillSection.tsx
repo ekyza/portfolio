@@ -11,7 +11,7 @@ const skillData = [
       },
       {
         iconClass: "bxl bx-shadcn-ui",
-        colorClass: "text-[#ffffff] hover:drop-shadow-[0_0_8px_#ffffff]",
+        colorClass: "text-[#000000] dark:text-[#ffffff] hover:drop-shadow-[0_0_8px_#000000] dark:hover:drop-shadow-[0_0_8px_#ffffff]",
         name: "ShadCN UI",
       },
 
@@ -32,7 +32,7 @@ const skillData = [
       },
       {
         iconClass: "bxl bx-next-js",
-        colorClass: "text-[#ffffff] hover:drop-shadow-[0_0_8px_#ffffff]",
+        colorClass: "text-[#000000] dark:text-[#ffffff] hover:drop-shadow-[0_0_8px_#000000] dark:hover:drop-shadow-[0_0_8px_#ffffff]",
         name: "Next",
       },
     ],
@@ -47,7 +47,7 @@ const skillData = [
       },
       {
         iconClass: "bxl bx-express-js",
-        colorClass: "text-[#ffffff] hover:drop-shadow-[0_0_8px_#ffffff]",
+        colorClass: "text-[#000000] dark:text-[#ffffff] hover:drop-shadow-[0_0_8px_#000000] dark:hover:drop-shadow-[0_0_8px_#ffffff]",
         name: "Express",
       },
       {
@@ -122,12 +122,12 @@ const skillData = [
       },
       {
         iconClass: "bxl bx-github",
-        colorClass: "text-[#ffffff] hover:drop-shadow-[0_0_8px_#ffffff]",
+        colorClass: "text-[#000000] dark:text-[#ffffff] hover:drop-shadow-[0_0_8px_#000000] dark:hover:drop-shadow-[0_0_8px_#ffffff]",
         name: "Github",
       },
       {
         iconClass: "bxl bx-vercel",
-        colorClass: "text-[#ffffff] hover:drop-shadow-[0_0_8px_#ffffff]",
+        colorClass: "text-[#000000] dark:text-[#ffffff] hover:drop-shadow-[0_0_8px_#000000] dark:hover:drop-shadow-[0_0_8px_#ffffff]",
         name: "Vercel",
       },
       {
@@ -143,9 +143,9 @@ export default function SkillSection() {
   return (
     <section id="skill" className="flex flex-col gap-8">
       <div className="pt-4 flex items-center gap-2">
-        <i className="bx bx-bracket-curly text-xl text-text"></i>
+        <i className="bx bx-bracket-curly text-xl text-text dark:text-dark-text"></i>
 
-        <p className="my-0.5 font-primary text-lg font-bold text-text">Skills</p>
+        <p className="my-0.5 font-primary text-lg font-bold text-text dark:text-dark-text">Skills</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
