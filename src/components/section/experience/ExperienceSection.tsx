@@ -3,8 +3,8 @@ import TimelineItem from "../../shared/TimelineItem";
 const experiences = [
   {
     company: "Greenlabs Indonesia",
-    role: "Backend Engineer",
-    date: "Mar 2025 - Present",
+    role: "Backend Engineer - Freelance",
+    date: "Mar 2025 - May 2025",
     descriptions:
       "Responsible for developing and maintaining backend applications and services to support laboratory service booking and management. This includes designing and implementing RESTful APIs, creating efficient relational database structures to support core business workflows, collaborating closely with frontend developers to ensure seamless API integration, and implementing security best practices to safeguard sensitive user and operational data, also handled deployment automation using CI/CD pipelines to enable faster, more consistent, and reliable delivery of new features and updates.",
   },
