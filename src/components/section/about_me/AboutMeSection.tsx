@@ -3,7 +3,7 @@ import SocialLink from "./SocialLink";
 const socialLinks = [
   { href: "https://github.com/ekyza/", label: "github", iconClass: "bxl bx-github" },
   { href: "https://www.linkedin.com/in/eky-zakariah-40b404257/", label: "linkedin", iconClass: "bxl bx-linkedin-square" },
-  { href: "https://www.instagram.com/eky.za/", label: "instgram", iconClass: "bxl bx-instagram" },
+  { href: "https://www.instagram.com/ekyza.dev/", label: "instgram", iconClass: "bxl bx-instagram" },
 ];
 
 export default function AboutMeSection() {
@@ -21,7 +21,7 @@ export default function AboutMeSection() {
 
       <div className="flex items-center gap-8">
         <a
-          href="https://drive.google.com/file/d/19QDT00Bcv3mmjCsjslOwFuDN8MYkgU77/view?usp=sharing"
+          href="https://drive.google.com/file/d/1b2_YsxLsXuTg9wJT8ifvLC23-curDO6k/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-primary dark:bg-dark-primary py-2 px-3 rounded-md flex items-center gap-2 font-primary text-sm font-bold text-background dark:text-dark-background hover:cursor-pointer transition-all duration-200 hover:drop-shadow-[0_0_8px_#28a964 dark:hover:drop-shadow-[0_0_8px_#33ce78]"

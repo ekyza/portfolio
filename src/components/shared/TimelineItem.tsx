@@ -9,7 +9,7 @@ export default function TimelineItem({ company, role, date, descriptions }: Time
   return (
     <div className="flex gap-8 relative">
       <div className="relative flex flex-col items-center">
-        <div className="bg-primary dark:bg-dark-primary mt-[1.375rem] rounded-full size-3 z-10"></div>
+        <div className="bg-primary dark:bg-dark-primary mt-5.5 rounded-full size-3 z-10"></div>
 
         <div className="absolute top-0 h-[calc(100%+(1.5rem*2))] w-0.5 bg-border dark:bg-dark-border"></div>
       </div>

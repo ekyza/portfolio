@@ -7,6 +7,7 @@ import ThemeContextProvider from "./contexts/ThemeContext";
 import ScrolledPage from "./components/ScrolledPage";
 import Navbar from "./components/Navbar";
 import AboutMeSection from "./components/section/about_me/AboutMeSection";
+import ProjectsSection from "./components/section/projects/ProjectsSection";
 import ExperienceSection from "./components/section/experience/ExperienceSection";
 import EducationSection from "./components/section/education/EducationSection";
 import SkillSection from "./components/section/skill/SkillSection";
@@ -33,10 +34,12 @@ export default function App() {
         <div className="bg-background dark:bg-dark-background min-h-screen antialiased transition-colors duration-500 ease-in-out">
           <Navbar />
 
-          <main className="py-4 px-6 mx-auto max-w-screen-lg">
+          <main className="py-4 px-6 mx-auto max-w-5xl">
             <AboutMeSection />
 
             <div className="flex flex-col gap-12">
+              <ProjectsSection />
+
               <ExperienceSection />
 
               <EducationSection />

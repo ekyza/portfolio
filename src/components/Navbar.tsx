@@ -6,6 +6,7 @@ import HamburgerMenu from "./HamburgerMenu";
 
 const navLinks = [
   { href: "#about-me", label: "About Me" },
+  { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
   { href: "#skill", label: "Skill" },
   { href: "#contact", label: "Contact" },
@@ -25,7 +26,7 @@ export default function Navbar() {
 
   return (
     <header className="px-4">
-      <nav className="py-4 md:px-4 mx-auto border-b border-border dark:border-dark-border max-w-screen-lg flex items-center justify-between">
+      <nav className="py-4 md:px-4 mx-auto border-b border-border dark:border-dark-border max-w-5xl flex items-center justify-between">
         <a href="/" className="font-primary text-lg font-bold text-text dark:text-dark-text">
           <span className="text-primary dark:text-dark-primary">{"{"}</span>ekyza.<span className="text-primary dark:text-dark-primary">{"}"}</span>
         </a>
@@ -69,7 +70,7 @@ export default function Navbar() {
 
       {isOpen && (
         <>
-          <div className="fixed top-[4.5rem] inset-0 bg-background/75 dark:bg-dark-background/75 z-10" onClick={() => setIsOpen(false)} />
+          <div className="fixed top-18 inset-0 bg-background/75 dark:bg-dark-background/75 z-10" onClick={() => setIsOpen(false)} />
 
           <div className="fixed top-[4.438rem] left-0 bg-background dark:bg-dark-background py-4 px-6 border-b border-border dark:border-dark-border w-full flex flex-col gap-8 z-50">
             {navLinks.map(({ href, label }) => (

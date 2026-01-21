@@ -14,7 +14,6 @@ const skillData = [
         colorClass: "text-[#000000] dark:text-[#ffffff] hover:drop-shadow-[0_0_8px_#000000] dark:hover:drop-shadow-[0_0_8px_#ffffff]",
         name: "ShadCN UI",
       },
-
       {
         iconClass: "bxl bx-react",
         colorClass: "text-[#58c4dc] hover:drop-shadow-[0_0_8px_#58c4dc]",
