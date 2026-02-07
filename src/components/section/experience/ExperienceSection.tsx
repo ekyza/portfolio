@@ -10,7 +10,7 @@ const experiences = [
   },
   {
     company: "Badan Kepegawaian dan Pengembangan Sumber Daya Manusia Kabupaten Malang",
-    role: "Web Developer - Intern",
+    role: "Web Developer - Internship",
     date: "Jul 2024 - Aug 2024",
     descriptions:
       "Responsible for enhancing security and usability of the BKPSDM authentication system by integrating human verification mechanisms on the login page using Laravel. Designed and developed APIs and user interfaces for a credit score feature to support efficient personnel data management. Actively collaborated within a team of developers, contributing to code reviews and technical discussions to ensure high-quality and maintainable code.",

@@ -14,7 +14,7 @@ const contacts = [
   {
     label: "Resume",
     icon: "bx bx-file-detail",
-    href: "https://drive.google.com/file/d/1b2_YsxLsXuTg9wJT8ifvLC23-curDO6k/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1MpZSEOpHtUzkP5y0wyC23YW0R6lBjGpV/view?usp=sharing",
     target: "_blank",
     rel: "noopener noreferrer",
   },
