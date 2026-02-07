@@ -4,7 +4,7 @@ const educations = [
   {
     company: "University of Muhammadiyah Malang",
     role: "Informatics Student - Software Engineering Focus",
-    date: "Sep 2021 - Jan 2026",
+    date: "Sep 2021 - Feb 2026",
     descriptions:
       "Pursuing a Bachelor's degree in Informatics with a focus on Software Engineering. Coursework includes software development, data structures, algorithms, databases, and web application development. Actively involved in academic projects centered around building information systems and collaborative development, with a strong foundation in modern software engineering practices.",
   },
