@@ -6,7 +6,7 @@ import HamburgerMenu from "./HamburgerMenu";
 
 const navLinks = [
   { href: "#about-me", label: "About Me" },
-  { href: "#projects", label: "Projects" },
+  { href: "#project", label: "Project" },
   { href: "#experience", label: "Experience" },
   { href: "#skill", label: "Skill" },
   { href: "#contact", label: "Contact" },

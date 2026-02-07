@@ -12,7 +12,7 @@ const skillData = [
       {
         iconClass: "bxl bx-shadcn-ui",
         colorClass: "text-[#000000] dark:text-[#ffffff] hover:drop-shadow-[0_0_8px_#000000] dark:hover:drop-shadow-[0_0_8px_#ffffff]",
-        name: "ShadCN UI",
+        name: "ShadCN",
       },
       {
         iconClass: "bxl bx-react",
@@ -27,7 +27,7 @@ const skillData = [
       {
         iconClass: "bxl bx-react-query",
         colorClass: "text-[#ff4759] hover:drop-shadow-[0_0_8px_#ff4759]",
-        name: "React Query",
+        name: "Tanstack Query",
       },
       {
         iconClass: "bxl bx-next-js",
@@ -80,19 +80,9 @@ const skillData = [
         name: "MySQL",
       },
       {
-        iconClass: "bxl bx-neon-tech",
-        colorClass: "text-[#67f75a] hover:drop-shadow-[0_0_8px_#67f75a]",
-        name: "Neon",
-      },
-      {
         iconClass: "bxl bx-supabase",
         colorClass: "text-[#3ecf8e] hover:drop-shadow-[0_0_8px_#3ecf8e]",
         name: "Supabase",
-      },
-      {
-        iconClass: "bxl bx-firebase",
-        colorClass: "text-[#de3308] hover:drop-shadow-[0_0_8px_#de3308]",
-        name: "Firebase",
       },
       {
         iconClass: "bxl bx-mongodb",
@@ -104,16 +94,6 @@ const skillData = [
   {
     title: "Tools",
     skills: [
-      {
-        iconClass: "bxl bx-npm",
-        colorClass: "text-[#cd3e3d] hover:drop-shadow-[0_0_8px_#cd3e3d]",
-        name: "NPM",
-      },
-      {
-        iconClass: "bxl bx-vite-js",
-        colorClass: "text-[#9499db] hover:drop-shadow-[0_0_8px_#9499db]",
-        name: "Vite",
-      },
       {
         iconClass: "bxl bx-docker",
         colorClass: "text-[#1d63ed] hover:drop-shadow-[0_0_8px_#1d63ed]",
@@ -129,11 +109,6 @@ const skillData = [
         colorClass: "text-[#000000] dark:text-[#ffffff] hover:drop-shadow-[0_0_8px_#000000] dark:hover:drop-shadow-[0_0_8px_#ffffff]",
         name: "Vercel",
       },
-      {
-        iconClass: "bxl bx-netlify",
-        colorClass: "text-[#2ab6b4] hover:drop-shadow-[0_0_8px_#2ab6b4]",
-        name: "Netlify",
-      },
     ],
   },
 ];
@@ -144,7 +119,7 @@ export default function SkillSection() {
       <div className="pt-4 flex items-center gap-2">
         <i className="bx bx-bracket-curly text-xl text-text dark:text-dark-text"></i>
 
-        <p className="my-0.5 font-primary text-lg font-bold text-text dark:text-dark-text">Skills</p>
+        <p className="my-0.5 font-primary text-lg font-bold text-text dark:text-dark-text">Skill</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16">

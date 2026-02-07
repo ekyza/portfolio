@@ -7,7 +7,7 @@ import ThemeContextProvider from "./contexts/ThemeContext";
 import ScrolledPage from "./components/ScrolledPage";
 import Navbar from "./components/Navbar";
 import AboutMeSection from "./components/section/about_me/AboutMeSection";
-import ProjectsSection from "./components/section/projects/ProjectsSection";
+import ProjectSection from "./components/section/project/ProjectSection";
 import ExperienceSection from "./components/section/experience/ExperienceSection";
 import EducationSection from "./components/section/education/EducationSection";
 import SkillSection from "./components/section/skill/SkillSection";
@@ -38,7 +38,7 @@ export default function App() {
             <AboutMeSection />
 
             <div className="flex flex-col gap-12">
-              <ProjectsSection />
+              <ProjectSection />
 
               <ExperienceSection />
 

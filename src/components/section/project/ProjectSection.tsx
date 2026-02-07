@@ -26,7 +26,7 @@ const projects = [
       {
         iconClass: "bxl bx-react-query",
         colorClass: "text-[#ff4759] hover:drop-shadow-[0_0_8px_#ff4759]",
-        name: "React Query",
+        name: "Tanstack Query",
       },
       {
         iconClass: "bxl bx-express-js",
@@ -52,15 +52,15 @@ const projects = [
   },
 ];
 
-export default function ProjectsSection() {
+export default function ProjectSection() {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
 
   return (
-    <section id="projects" className="flex flex-col gap-8">
+    <section id="project" className="flex flex-col gap-8">
       <div className="pt-4 flex items-center gap-2">
         <i className="bxr bx-folder-open text-xl text-text dark:text-dark-text"></i>
 
-        <p className="mt-0.5 font-primary text-lg font-bold text-text dark:text-dark-text">Projects</p>
+        <p className="mt-0.5 font-primary text-lg font-bold text-text dark:text-dark-text">Project</p>
       </div>
 
       <div className="relative grid md:grid-cols-2 gap-8">

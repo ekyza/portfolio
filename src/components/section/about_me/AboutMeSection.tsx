@@ -21,7 +21,7 @@ export default function AboutMeSection() {
 
       <div className="flex items-center gap-8">
         <a
-          href="https://drive.google.com/file/d/1b2_YsxLsXuTg9wJT8ifvLC23-curDO6k/view?usp=sharing"
+          href="https://drive.google.com/file/d/1MpZSEOpHtUzkP5y0wyC23YW0R6lBjGpV/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-primary dark:bg-dark-primary py-2 px-3 rounded-md flex items-center gap-2 font-primary text-sm font-bold text-background dark:text-dark-background hover:cursor-pointer transition-all duration-200 hover:drop-shadow-[0_0_8px_#28a964 dark:hover:drop-shadow-[0_0_8px_#33ce78]"
