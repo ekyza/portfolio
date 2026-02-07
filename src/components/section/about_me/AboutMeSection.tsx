@@ -15,8 +15,7 @@ export default function AboutMeSection() {
           Eky Zakariah
         </span>
         , a Software Engineer passionate about building efficient, user-friendly solutions. Experienced in frontend and backend development, database
-        management, and CI/CD automation, with a strong focus on collaboration and continuous improvement. Currently pursuing a degree in Informatics with a
-        concentration in Software Engineering.
+        management, and CI/CD automation, with a strong focus on collaboration and continuous improvement.
       </p>
 
       <div className="flex items-center gap-8">
